@@ -13,7 +13,7 @@ Theo's purpose is to fight script kiddies that try to be leet hackers. He can li
 ## Install
 
 ```console
-$ git clone https://github.com/cleanunicorn/theo
+$ git clone https://github.com/tundachef/theo
 $ cd theo
 $ pip install -r requirements.txt
 ```
@@ -92,7 +92,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>>
 ```
 
-You can see the available exploits found. In this case one exploit was found. Each exploit is an [Exploit](https://github.com/cleanunicorn/theo/blob/263dc9f0cd34c4a0904529128c93f30b29eae415/theo/scanner/__init__.py#L9) object, having a list of transactions to exploit a bug.
+You can see the available exploits found. In this case one exploit was found. Each exploit is an [Exploit](https://github.com/tundachef/theo/blob/263dc9f0cd34c4a0904529128c93f30b29eae415/theo/scanner/__init__.py#L9) object, having a list of transactions to exploit a bug.
 
 ```console
 >>> exploits[0]
